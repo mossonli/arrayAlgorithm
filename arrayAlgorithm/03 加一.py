@@ -18,8 +18,18 @@ __author__ = "Mosson"
 """
 class Solution(object):
     def plusOne(self, digits):
-        """
-        :type digits: List[int]
-        :rtype: List[int]
-        """
-        # 原谅我，没看懂题
+        for i in range(len(digits)):
+            if digits[-1 - i] == 9:
+                print(digits[-1 - i])
+                digits[-1 - i] = 0
+                if -1-i == -len(digits):
+                    digits[-1 - i] = 1
+                    digits.append(0)
+                    return digits
+            else:
+                digits[-1 - i] += 1
+                return digits
+
+ret = Solution()
+print(ret.plusOne([9, 9, 9]))
+
