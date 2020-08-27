@@ -7,13 +7,14 @@
 所以返回 [0, 1]
 """
 # 我的
-# class Solution:
-#     def twoSum(self, nums: List[int], target: int) -> List[int]:
-#         for i in range(len(nums)):
-#             other = target - nums[i]
-#             for j in range(i+1, len(nums)):
-#                 if nums[i]+ nums[j] == target:
-#                     return [i, j]
+class Solution1:
+    def twoSum(self, nums, target):
+
+        for i in range(len(nums)):
+            other = target - nums[i]
+            for j in range(1, len(nums)-1):
+                if nums[j] == other:
+                    print(i, j)
 
 # 答案
 class Solution:
@@ -23,7 +24,6 @@ class Solution:
         map = {}
         for i in range(len(num)):
             if num[i] not in map:
-                # map[9-2] = 0
                 map[target - num[i]] = i
                 print(map)
             else:
@@ -31,7 +31,6 @@ class Solution:
                 return map[num[i]], i
         return -1, -1
 ret = Solution()
-r = ret.twoSum([3 ,2, 11, 7, 15], 9)
+r = ret.twoSum([3 ,4, 11, 4, 5], 8)
 print(r)
-
 

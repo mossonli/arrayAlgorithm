@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5932968b-af46-44b3-ac40-c7f575157aa1" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="5932968b-af46-44b3-ac40-c7f575157aa1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/01 寻找数组的中心索引.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/04两数之和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/05两数相加.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/06移动零.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/07 盛水最多的容器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayAlgorithm/09 三数之和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/常用快捷键.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,43 +43,6 @@
     <SUITE FILE_PATH="coverage/algorithm$03_.coverage" NAME="03 加一 Coverage Results" MODIFIED="1586428386828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
     <SUITE FILE_PATH="coverage/algorithm$.coverage" NAME="至少是其他数字两倍的最大数 Coverage Results" MODIFIED="1586237656062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03 加一.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arrayAlgorithm/03 加一.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02 至少是其他数字两倍的最大数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="算法说明.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/算法说明.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="682">
-                <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -58,32 +51,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/arrayAlgorithm" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/arrayAlgorithm/寻找数组的中心索引.py" />
-        <option value="$PROJECT_DIR$/arrayAlgorithm/至少是其他数字两倍的最大数.py" />
-        <option value="$PROJECT_DIR$/arrayAlgorithm/加一.py" />
-        <option value="$PROJECT_DIR$/doc/算法说明.md" />
-        <option value="$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py" />
-        <option value="$PROJECT_DIR$/arrayAlgorithm/03 加一.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="1024" />
-  </component>
+  <component name="ProjectId" id="1e11Lm4fg51JQEzMYTOVzCqtya8" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -100,57 +70,29 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/arrayAlgorithm" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.03 加一">
-    <configuration name="至少是其他数字两倍的最大数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pyTest">
+    <configuration name="06移动零" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -161,15 +103,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/06移动零.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="03 加一" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07 盛水最多的容器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -180,27 +125,98 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/03 加一.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/07 盛水最多的容器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.至少是其他数字两倍的最大数" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03 加一" />
+    <configuration name="09 三数之和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/arrayAlgorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/09 三数之和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10 整数反转" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/arrayAlgorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/10 整数反转.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/arrayAlgorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrayAlgorithm/pyTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.06移动零" />
+      <item itemvalue="Python.pyTest" />
+      <item itemvalue="Python.07 盛水最多的容器" />
+      <item itemvalue="Python.09 三数之和" />
+      <item itemvalue="Python.10 整数反转" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.03 加一" />
-        <item index="1" class="java.lang.String" itemvalue="Python.至少是其他数字两倍的最大数" />
+      <list>
+        <item itemvalue="Python.pyTest" />
+        <item itemvalue="Python.10 整数反转" />
+        <item itemvalue="Python.06移动零" />
+        <item itemvalue="Python.09 三数之和" />
+        <item itemvalue="Python.07 盛水最多的容器" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -212,156 +228,176 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586156161395</updated>
+      <workItem from="1593474232931" duration="20933000" />
+      <workItem from="1594078527982" duration="6445000" />
+      <workItem from="1595198354087" duration="2089000" />
+      <workItem from="1595398020516" duration="17859000" />
+      <workItem from="1597127847572" duration="6856000" />
+      <workItem from="1597280824761" duration="1309000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="240" y="23" width="1440" height="1024" extended-state="0" />
-    <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33002207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44481236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-    <watches-manager />
+  <component name="WindowStateProjectService">
+    <state x="311" y="85" width="1071" height="963" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594370535011">
+      <screen x="0" y="23" width="1646" height="1027" />
+    </state>
+    <state x="311" y="85" width="1071" height="963" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.23.2560.1417/0.23.1646.1027@0.23.1646.1027" timestamp="1594370535011" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom" timestamp="1597279546400">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1630.1027@0.23.1630.1027" timestamp="1594982893742" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1633.1027@0.23.1633.1027" timestamp="1597213174621" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597227377490" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597279546400" />
+    <state width="1358" height="419" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1595495610092" />
+    <state width="1358" height="387" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883138" />
+    <state width="1358" height="332" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1595413891887" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1642.1027@0.23.1642.1027" timestamp="1595906967805" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1643.1027@0.23.1643.1027" timestamp="1595906758451" />
+    <state width="1358" height="332" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1644.1027@0.23.1644.1027" timestamp="1593825955972" />
+    <state width="1358" height="332" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1646.1027@0.23.1646.1027" timestamp="1594887039644" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1638.1027@0.23.1638.1027" timestamp="1593645471205" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1639.1027@0.23.1639.1027" timestamp="1593645759901" />
+    <state width="1358" height="375" key="GridCell.Tab.0.bottom/0.23.1640.1027@0.23.1640.1027" timestamp="1593646264460" />
+    <state width="1358" height="332" key="GridCell.Tab.0.bottom/0.23.1643.1027@0.23.1643.1027" timestamp="1594078504175" />
+    <state width="1358" height="548" key="GridCell.Tab.0.bottom/0.23.1644.1027@0.23.1644.1027" timestamp="1593695918479" />
+    <state width="1358" height="218" key="GridCell.Tab.0.bottom/0.23.1645.1027@0.23.1645.1027" timestamp="1595891652643" />
+    <state width="1358" height="332" key="GridCell.Tab.0.bottom/0.23.1647.1027@0.23.1647.1027" timestamp="1594472222297" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center" timestamp="1597279546399">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1630.1027@0.23.1630.1027" timestamp="1594982893741" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1633.1027@0.23.1633.1027" timestamp="1597213174620" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597227377489" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597279546399" />
+    <state width="1358" height="419" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1595495610092" />
+    <state width="1358" height="387" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883138" />
+    <state width="1358" height="332" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1595413891886" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1642.1027@0.23.1642.1027" timestamp="1595906967804" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1643.1027@0.23.1643.1027" timestamp="1595906758450" />
+    <state width="1358" height="332" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1644.1027@0.23.1644.1027" timestamp="1593825955971" />
+    <state width="1358" height="332" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1646.1027@0.23.1646.1027" timestamp="1594887039644" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1638.1027@0.23.1638.1027" timestamp="1593645471204" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1639.1027@0.23.1639.1027" timestamp="1593645759900" />
+    <state width="1358" height="375" key="GridCell.Tab.0.center/0.23.1640.1027@0.23.1640.1027" timestamp="1593646264459" />
+    <state width="1358" height="332" key="GridCell.Tab.0.center/0.23.1643.1027@0.23.1643.1027" timestamp="1594078504174" />
+    <state width="1358" height="548" key="GridCell.Tab.0.center/0.23.1644.1027@0.23.1644.1027" timestamp="1593695918478" />
+    <state width="1358" height="218" key="GridCell.Tab.0.center/0.23.1645.1027@0.23.1645.1027" timestamp="1595891652643" />
+    <state width="1358" height="332" key="GridCell.Tab.0.center/0.23.1647.1027@0.23.1647.1027" timestamp="1594472222296" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left" timestamp="1597279546398">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1630.1027@0.23.1630.1027" timestamp="1594982893741" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1633.1027@0.23.1633.1027" timestamp="1597213174619" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597227377489" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597279546398" />
+    <state width="1358" height="419" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1595495610091" />
+    <state width="1358" height="387" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883137" />
+    <state width="1358" height="332" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1595413891886" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1642.1027@0.23.1642.1027" timestamp="1595906967804" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1643.1027@0.23.1643.1027" timestamp="1595906758449" />
+    <state width="1358" height="332" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1644.1027@0.23.1644.1027" timestamp="1593825955971" />
+    <state width="1358" height="332" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1646.1027@0.23.1646.1027" timestamp="1594887039643" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1638.1027@0.23.1638.1027" timestamp="1593645471203" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1639.1027@0.23.1639.1027" timestamp="1593645759900" />
+    <state width="1358" height="375" key="GridCell.Tab.0.left/0.23.1640.1027@0.23.1640.1027" timestamp="1593646264458" />
+    <state width="1358" height="332" key="GridCell.Tab.0.left/0.23.1643.1027@0.23.1643.1027" timestamp="1594078504174" />
+    <state width="1358" height="548" key="GridCell.Tab.0.left/0.23.1644.1027@0.23.1644.1027" timestamp="1593695918477" />
+    <state width="1358" height="218" key="GridCell.Tab.0.left/0.23.1645.1027@0.23.1645.1027" timestamp="1595891652642" />
+    <state width="1358" height="332" key="GridCell.Tab.0.left/0.23.1647.1027@0.23.1647.1027" timestamp="1594472222295" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right" timestamp="1597279546400">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1630.1027@0.23.1630.1027" timestamp="1594982893741" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1633.1027@0.23.1633.1027" timestamp="1597213174621" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597227377490" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597279546400" />
+    <state width="1358" height="419" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1595495610092" />
+    <state width="1358" height="387" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883138" />
+    <state width="1358" height="332" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1595413891887" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1642.1027@0.23.1642.1027" timestamp="1595906967805" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1643.1027@0.23.1643.1027" timestamp="1595906758450" />
+    <state width="1358" height="332" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1644.1027@0.23.1644.1027" timestamp="1593825955972" />
+    <state width="1358" height="332" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1646.1027@0.23.1646.1027" timestamp="1594887039644" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1638.1027@0.23.1638.1027" timestamp="1593645471204" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1639.1027@0.23.1639.1027" timestamp="1593645759901" />
+    <state width="1358" height="375" key="GridCell.Tab.0.right/0.23.1640.1027@0.23.1640.1027" timestamp="1593646264459" />
+    <state width="1358" height="332" key="GridCell.Tab.0.right/0.23.1643.1027@0.23.1643.1027" timestamp="1594078504175" />
+    <state width="1358" height="548" key="GridCell.Tab.0.right/0.23.1644.1027@0.23.1644.1027" timestamp="1593695918478" />
+    <state width="1358" height="218" key="GridCell.Tab.0.right/0.23.1645.1027@0.23.1645.1027" timestamp="1595891652643" />
+    <state width="1358" height="332" key="GridCell.Tab.0.right/0.23.1647.1027@0.23.1647.1027" timestamp="1594472222296" />
+    <state width="1358" height="387" key="GridCell.Tab.1.bottom" timestamp="1597224082671">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="387" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597221126550" />
+    <state width="1358" height="387" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597224082671" />
+    <state width="1358" height="375" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1593595835574" />
+    <state width="1358" height="387" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883139" />
+    <state width="1358" height="375" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1593658012406" />
+    <state width="1358" height="375" key="GridCell.Tab.1.bottom/0.23.1638.1027@0.23.1638.1027" timestamp="1593645410444" />
+    <state width="1358" height="375" key="GridCell.Tab.1.bottom/0.23.1640.1027@0.23.1640.1027" timestamp="1593646265059" />
+    <state width="1358" height="387" key="GridCell.Tab.1.center" timestamp="1597224082670">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="387" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597221126549" />
+    <state width="1358" height="387" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597224082670" />
+    <state width="1358" height="375" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1593595835569" />
+    <state width="1358" height="387" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883139" />
+    <state width="1358" height="375" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1593658012406" />
+    <state width="1358" height="375" key="GridCell.Tab.1.center/0.23.1638.1027@0.23.1638.1027" timestamp="1593645410444" />
+    <state width="1358" height="375" key="GridCell.Tab.1.center/0.23.1640.1027@0.23.1640.1027" timestamp="1593646265058" />
+    <state width="1358" height="387" key="GridCell.Tab.1.left" timestamp="1597224082670">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="387" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597221126548" />
+    <state width="1358" height="387" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597224082670" />
+    <state width="1358" height="375" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1593595835569" />
+    <state width="1358" height="387" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883139" />
+    <state width="1358" height="375" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1593658012406" />
+    <state width="1358" height="375" key="GridCell.Tab.1.left/0.23.1638.1027@0.23.1638.1027" timestamp="1593645410444" />
+    <state width="1358" height="375" key="GridCell.Tab.1.left/0.23.1640.1027@0.23.1640.1027" timestamp="1593646265058" />
+    <state width="1358" height="387" key="GridCell.Tab.1.right" timestamp="1597224082671">
+      <screen x="0" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1358" height="387" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.1635.1027@0.23.1635.1027" timestamp="1597221126549" />
+    <state width="1358" height="387" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.1636.1027@0.23.1636.1027" timestamp="1597224082671" />
+    <state width="1358" height="375" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.1639.1027@0.23.1639.1027" timestamp="1593595835570" />
+    <state width="1358" height="387" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.1640.1027@0.23.1640.1027" timestamp="1595990883139" />
+    <state width="1358" height="375" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1593658012406" />
+    <state width="1358" height="375" key="GridCell.Tab.1.right/0.23.1638.1027@0.23.1638.1027" timestamp="1593645410444" />
+    <state width="1358" height="375" key="GridCell.Tab.1.right/0.23.1640.1027@0.23.1640.1027" timestamp="1593646265058" />
+    <state x="395" y="227" key="SettingsEditor" timestamp="1595929536555">
+      <screen x="0" y="23" width="1642" height="1027" />
+    </state>
+    <state x="395" y="227" key="SettingsEditor/-2560.23.2560.1417/0.23.1642.1027@0.23.1642.1027" timestamp="1595929536555" />
+    <state x="513" y="251" width="671" height="676" key="search.everywhere.popup" timestamp="1595905858119">
+      <screen x="0" y="23" width="1642" height="1027" />
+    </state>
+    <state x="513" y="251" width="670" height="676" key="search.everywhere.popup/-2560.23.2560.1417/0.23.1641.1027@0.23.1641.1027" timestamp="1593496962085" />
+    <state x="513" y="251" width="671" height="676" key="search.everywhere.popup/-2560.23.2560.1417/0.23.1642.1027@0.23.1642.1027" timestamp="1595905858119" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/03 加一.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/算法说明.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="682">
-            <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/03 加一.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/算法说明.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="682">
-            <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/01 寻找数组的中心索引.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="1071" column="0" lean-forward="false" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.3/python_stubs/1968482601/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="288" column="45" lean-forward="false" selection-start-line="288" selection-start-column="45" selection-end-line="288" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/算法说明.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="682">
-            <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/02 至少是其他数字两倍的最大数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayAlgorithm/03 加一.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$03_.coverage" NAME="03 加一 Coverage Results" MODIFIED="1593594926619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
+    <SUITE FILE_PATH="coverage/algorithm$07_.coverage" NAME="07 盛水最多的容器 Coverage Results" MODIFIED="1595906758440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
+    <SUITE FILE_PATH="coverage/algorithm$06.coverage" NAME="06移动零 Coverage Results" MODIFIED="1595990870648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
+    <SUITE FILE_PATH="coverage/algorithm$10_.coverage" NAME="10 整数反转 Coverage Results" MODIFIED="1597221117522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
+    <SUITE FILE_PATH="coverage/algorithm$pyTest.coverage" NAME="pyTest Coverage Results" MODIFIED="1597227377478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
+    <SUITE FILE_PATH="coverage/algorithm$09_.coverage" NAME="09 三数之和 Coverage Results" MODIFIED="1595990660687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
+    <SUITE FILE_PATH="coverage/algorithm$05.coverage" NAME="05两数相加 Coverage Results" MODIFIED="1595495612055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/arrayAlgorithm" />
   </component>
 </project>
