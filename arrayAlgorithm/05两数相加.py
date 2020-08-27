@@ -1,8 +1,6 @@
 """
 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
-
 如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
-
 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
 
 示例：
@@ -10,6 +8,9 @@
 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
 输出：7 -> 0 -> 8
 原因：342 + 465 = 807
+
+思路：
+    先将342逆序数字存储到链表中【也就是先存2 再存 4 再存 3】
 """
 
 """
@@ -21,117 +22,59 @@
 使用预先指针的目的在于链表初始化时无可用节点值，而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。
 """
 
-# @lc code=start
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
 
-# class Solution:
-#     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-#         l3 = ListNode(0)
-#         head = l3
-#         step = 0
-#         while l1 or l2:
-#             x = l1.val if l1 else 0
-#             y = l2.val if l2 else 0
-#
-#             result = x + y + step
-#             step = result // 10
-#
-#             head.next = ListNode(result % 10)
-#             head = head.next
-#             l1 = l1.next if l1 else None
-#             l2 = l2.next if l2 else None
-#
-#         if step == 1:
-#             head.next = ListNode(1)
-#
-#         return l3.next
+class ListNode:
+    """
+    链表汇总保存数值以及节点的指向
+    """
 
-menu = {
-    '北京':{
-        '海淀':{
-            '五道口':{
-                'soho':{},
-                '网易':{},
-                'google':{}
-            },
-            '中关村':{
-                '爱奇艺':{},
-                '汽车之家':{},
-                'youku':{},
-            },
-            '上地':{
-                '百度':{},
-            },
-        },
-        '昌平':{
-            '沙河':{
-                '老男孩':{},
-                '北航':{},
-            },
-            '天通苑':{},
-            '回龙观':{},
-        },
-        '朝阳':{},
-        '东城':{},
-    },
-    '上海':{
-        '闵行':{
-            "人民广场":{
-                '炸鸡店':{}
-            }
-        },
-        '闸北':{
-            '火车站':{
-                '携程':{}
-            }
-        },
-        '浦东':{},
-    },
-    '山东':{},
-}
-# while True:
-#     for i in menu:print(i)
-#     one = input(">:")
-#     if one == "q":break
-#     if one == "b":continue
-#     for j in menu[one]:print(j)
-#     two = input(">>:")
-#     if two == "q": break
-#     if two == "b": continue
-#     for j in menu[one][two]: print(j)
-#     three = input(">>>:")
-#     if three == "q": break
-#     if three == "b": continue
-#     for j in menu[one][two][three]: print(j)
-
-dic = {"k1": "v1v1", "k2": [11,22,33,44]}
-
-def func(i):  # i为所传字典
-
-    for k, v in i.items():
-        if len(v) > 2:
-            dic[k] = v[:2]
-        else:
-            continue
-    return i
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
 
-print(func(dic))
+class Solution:
+    """
+    542
+    465
+    1007
+    """
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        dummy = p = ListNode(None)  # 创建辅助结点 dummy和p都是辅助结点的名称，
+        # dummy 是值为空的头结点，dummy的下一个结点就是新建的链表
+        # 声明两个 链表对象 dummy和p，p参与while运算[参与运算指针结点位置就会发生变化]，
+        # 你可以debug查看其实链表p就是咱们要的结果，但是在while循环中一此次的next将链表的指针位置发生变化，dummy是一个完整的链表，第一个元素是None
+        s = 0  # 每一步求和的暂存变量
+        print(dummy, "1=============")
+        while l1 or l2 or s:
+            s += (l1.val if l1 else 0) + (l2.val if l2 else 0)
+            p.next = ListNode(s % 10)  # 构建新的list存储结果，其实用较长的加数链表也可以表示，%10求个位
+            p = p.next
+            s = s // 10  # 商
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+            # 为什么会返回dummy.next，因为前面声明dummy和p的时候都是复制一个空的链表，返回dummy.next是为了去掉一个None
+        return dummy.next
 
+if __name__ == '__main__':
 
+    s = Solution()
 
+    # 链表1
+    l1 = ListNode(2)
+    l1.next = l11 = ListNode(4)
+    l11.next = l12 = ListNode(5)
+    print("创建链表l1", l1)
+    # 链表2
+    l2 = ListNode(5)
+    l2.next = l21 = ListNode(6)
+    l21.next = l22 = ListNode(4)
+    print("创建链表l2", l1)
 
-
-
-
-
-
-
-
-
-
-
+    ret = s.addTwoNumbers(l1, l2)
+    print(ret, "ret -----")
+    while ret:
+        print("ret", ret)
+        print("ret val", ret.val)
+        print("ret next", ret.next)
+        ret = ret.next
