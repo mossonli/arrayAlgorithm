@@ -24,7 +24,8 @@ def fun_timer():  # 取代原来的IE定时重启refresh.bat 2020年6月14日23:
 #
 #     p = Process(target=fun_timer)  # 提醒进程
 #     p.start()  # 仅仅给操作系统发送了一个信号
-li = [1, 2, 3, 4]
-for i in enumerate(li):
-    print(i)
+tu = (1, 2,3,4)
+print(1 in tu)
+dic = {"a":1, "b":2, "c":3}
 
+print("a" in dic)

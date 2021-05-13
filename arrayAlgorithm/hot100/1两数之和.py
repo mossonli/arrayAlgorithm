@@ -8,21 +8,25 @@
 
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
+
+
+
+解题思路：
+在遍历的同时，记录一些信息，以省去一层循环，这是“以空间换时间”的想法
+使用哈希表，不但可以快速从数组nums中寻找是否存在目标元素target - x和目标元素的索引，而且可以将方法一中寻找数组nums是否存在target - x的时间复杂度从O(n)降低到O(1)
+需要注意的是，对于每一个x，需要先查询哈希表中是否存在target - x，然后再将x插入到哈希表中，即可确保不会让x与自己匹配
+
 """
 class Solution:
-        def twoSum(self, nums, target):
-            ret_map = {}
-            for i in range(len(nums)):
-                ret = target - nums[i]
-                if ret in ret_map:
-                    return [ret_map[ret], i]
-                ret_map[nums[i]] = i
+    def twoSum(self, nums, target):
+        ret_map = {}
+        for i in range(len(nums)):
+            ret = target - nums[i]
+            if ret in ret_map:
+                return [ret_map[ret], i]
+            ret_map[nums[i]] = i
 
-nums = [3,3]
-target = 6
-s = Solution()
-ret = s.twoSum(nums, target)
-print(ret)
+
 
 
 
